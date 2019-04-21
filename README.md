@@ -15,5 +15,10 @@
 ```bash
 gcc -std=c11 shell.h main.c -o myshell -lreadline -lncurses
 ```
+or use cmake  
+```
+cmake .
+make
+```
 
 
